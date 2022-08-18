@@ -94,7 +94,7 @@ fullscreen = 0
 
 # (list) Permissions
 #android.permissions = INTERNET
-
+android.permissions = INTERNET,CHANGE_WIFI_MULTICAST_STATE,ACCESS_NETWORK_STATE,ACCESS_WIFI_STATE
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host
 

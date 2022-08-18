@@ -109,9 +109,10 @@ def connection():
 
     ws.run_forever()
     return
-t = Thread(target=connection)
-t.start()
+
 
 if __name__ == '__main__':
+    t = Thread(target=connection)
+    t.start()
     app = MainApp()
     app.run()
